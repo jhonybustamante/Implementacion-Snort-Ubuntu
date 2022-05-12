@@ -16,3 +16,7 @@ Implementacion de Snort en Ubuntu
 * Acceder como root con el comando sudo su
 
 **Instalacion de Snort y configuracion** 
+* Ingresar el siguiente comando como usuario Root
+```
+apt-get install snort
+```
