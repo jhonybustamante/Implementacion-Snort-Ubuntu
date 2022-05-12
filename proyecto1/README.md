@@ -20,3 +20,4 @@ Implementacion de Snort en Ubuntu
 ```
 apt-get install snort
 ```
+![alt text](./instalacion de snort en ubuntu/1.png "Snort")
