@@ -5,3 +5,5 @@ Objetivos de este proyecto
 * implementar un sistema de deteccion de intrusos en la red
 * Ejecutar configuraciones comunes en los sistemas de deteccion de intrusos
 * Emplear y desarrollar mecanismos para detectar amenazas de red de forma proactiva.
+
+### ¿Que es Snort?
