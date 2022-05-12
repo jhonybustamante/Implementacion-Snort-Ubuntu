@@ -9,3 +9,4 @@ Implementacion de Snort en Ubuntu
 * Maquina Ubuntu
 * 4gb de ram para la maquina Ubuntu
 * 40gb espacio disponible
+**Iniciar vmware y encender la VM de Ubuntu**
