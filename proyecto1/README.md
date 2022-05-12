@@ -34,4 +34,8 @@ apt-get install snort
 
 ![alt text](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/fe236c1aa290b8c68b6b88eeab388c80139c4fe1/proyecto1/instalacion%20de%20snort%20en%20ubuntu/5.PNG)
 
+**ingresar en la consola el siguiente comando**
+```
+dpkg-reconfigure snort
+```
 
