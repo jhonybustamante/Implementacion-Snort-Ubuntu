@@ -7,4 +7,4 @@ Objetivos de este proyecto
 * Emplear y desarrollar mecanismos para detectar amenazas de red de forma proactiva.
 
 ### ¿Que es Snort?
-![Untitled]()
+![Untitled](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/0af78ee4a77c140d9cd4115f43079c24bfb6bc8f/img/1.PNG)
