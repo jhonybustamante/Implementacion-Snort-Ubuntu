@@ -1,3 +1,3 @@
 # Implementacion-Snort-Ubuntu
 
-**Objetivos de este proyecto**
+*Objetivos de este proyecto*
