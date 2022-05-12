@@ -38,4 +38,7 @@ apt-get install snort
 ```
 dpkg-reconfigure snort
 ```
-
+dejar todo como esta pero ingresar el correo
+![alt text](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/5e9b0bbe948f867b342c265c300c6e5314f9b0d3/proyecto1/instalacion%20de%20snort%20en%20ubuntu/9.PNG)
+minimo de ocurrencia 1
+![alt text](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/5e9b0bbe948f867b342c265c300c6e5314f9b0d3/proyecto1/instalacion%20de%20snort%20en%20ubuntu/10.PNG)
