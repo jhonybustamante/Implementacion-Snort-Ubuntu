@@ -21,3 +21,12 @@ Implementacion de Snort en Ubuntu
 apt-get install snort
 ```
 ![alt text](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/d7e62ffdead4d774f1a70ad7fe463cc53f2d4ae2/proyecto1/instalacion%20de%20snort%20en%20ubuntu/1.PNG)
+* dar siguiente y ingresar el nombre de la interfaz de red
+![alt text](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/fe236c1aa290b8c68b6b88eeab388c80139c4fe1/proyecto1/instalacion%20de%20snort%20en%20ubuntu/7.PNG)
+* ingresar la puerta de enlace
+![alt text](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/fe236c1aa290b8c68b6b88eeab388c80139c4fe1/proyecto1/instalacion%20de%20snort%20en%20ubuntu/3.PNG)
+
+* ir la consola de la maquina fuera de la virtualizacion y ingresar ipconfig para verificar la puerta de enlace de la red
+![alt text](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/fe236c1aa290b8c68b6b88eeab388c80139c4fe1/proyecto1/instalacion%20de%20snort%20en%20ubuntu/5.PNG)
+
+
