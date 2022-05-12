@@ -1,4 +1,3 @@
-# Implementacion-Snort-Ubuntu
 Implementacion de Snort en Ubuntu
 =================================
 
