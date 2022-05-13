@@ -17,3 +17,8 @@ Es un sistema de prevencion de intrusiones de codigo abierto, basado en red, cap
 - Deteccion de desbordamiento de bufer
 - Deteccion de escaneos de puertos sigilosos
 - Deteccion de ataques DOS
+### modo de funcionamiento
+
+- IDS o IPS  a nivel de red
+- Basado en reglas
+- Tiene tres usos primarios: Sniffer, Packet logger y NIDPS
