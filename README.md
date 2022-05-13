@@ -10,3 +10,10 @@ Objetivos de este proyecto
 ![Untitled](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/0af78ee4a77c140d9cd4115f43079c24bfb6bc8f/img/1.PNG)
 
 Es un sistema de prevencion de intrusiones de codigo abierto, basado en red, capaz de realizar analisis de trafico en tiempo real y registro de paquetes
+
+### Caracteristicas de Snort
+
+- Analisis d protocolos
+- Deteccion de desbordamiento de bufer
+- Deteccion de escaneos de puertos sigilosos
+- Deteccion de ataques DOS
