@@ -23,3 +23,11 @@ Es un sistema de prevencion de intrusiones de codigo abierto, basado en red, cap
 - Basado en reglas
 - Tiene tres usos primarios: Sniffer, Packet logger y NIDPS
 ![Untitled](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/6f3759c14ffd26e1c2aa2026dd14525fea7a6941/img/2.PNG)
+### componentes de Snort
+
+- decodificador
+- pre-procesador
+- motor de deteccion
+- log
+
+![Untitled](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/c4de5c9097351e9ba8a80ce30c3243fc3309ab09/img/3.PNG)
