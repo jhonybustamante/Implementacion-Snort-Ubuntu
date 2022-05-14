@@ -88,3 +88,16 @@ la forma en la que snort aplicara las reglas es la siguiente:
 | —alert-before-pass | Fuerza a que las reglas de alertas se ejecuten antes de las reglas permisivas |
 | —treat-drop-as-alert | Hace que las reglas de decarte o rechazo se ejecuten como alertas en vez de la accion predefinida. |
 | —process-all-event | Hace que se procese cada evento asociado con un paquete, en base al orden de las reglas. |
+
+### Entendimiento del formato de las alertas
+
+una alerta se compone de lo siguiente:
+
+- ID Generador
+- ID de la firma
+- ID de revision
+- mensaje
+- Clasificacion
+- Prioridad
+- Protocolo
+- Direccion de origen y de destino
