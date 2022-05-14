@@ -56,3 +56,14 @@ Es un sistema de prevencion de intrusiones de codigo abierto, basado en red, cap
 | telnet Inspector | Normaliza el bufer de datos con respecto a los comandos de telnet y negociacion de opciones. Determina cuando se cifra una conexion telnet |
 | SSH Inspector | Detecta exploits CRC-32, direccion de mensaje incorrecta y desbordamiento de bufer |
 | AppID | permite identificar y controlar trafico de aplicaciones o servicios |
+
+### Esquema de inspeccion de trafico en Snort 3
+![Untitled](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/9850ae27b88aaa1b81776397ef8e35c983ff3b08/img/5.PNG)
+
+## Opciones y configuraciones de alertas en Snort
+| Opcion | Descripcion |
+| --- | --- |
+| Fast | Envia la alerta en un formato simple con una marca de tiempo, mensaje de alerta, direccion de origen y de destino. |
+| Full | Envia la alerta en un formato completo incluye los headers completos de los paquetes. |
+| Unsock | Envia las alertas a un socket Unix que otro programa pueda escuchar. |
+| None | Deshabilita las alertas. |
