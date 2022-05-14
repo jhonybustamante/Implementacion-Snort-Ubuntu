@@ -70,3 +70,14 @@ Es un sistema de prevencion de intrusiones de codigo abierto, basado en red, cap
 | Console  | Envia las alertas en formato simple hacia la consola. |
 | CMG | Formato personalizado que muestra las alertas en formato full junto con el contenido del paquete. Este modo es solo para proposito de pruebas. |
 | Syslog | Envia las alertas al servidor Syslog en formato fast. |
+
+### Alertas en Snort
+
+## orden por defecto de las alertas
+
+la forma en la que snort aplicara las reglas es la siguiente:
+
+- reglas permisivas
+- reglas de descarte
+- reglas de alertas
+- reglas de logs
