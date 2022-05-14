@@ -67,3 +67,6 @@ Es un sistema de prevencion de intrusiones de codigo abierto, basado en red, cap
 | Full | Envia la alerta en un formato completo incluye los headers completos de los paquetes. |
 | Unsock | Envia las alertas a un socket Unix que otro programa pueda escuchar. |
 | None | Deshabilita las alertas. |
+| Console  | Envia las alertas en formato simple hacia la consola. |
+| CMG | Formato personalizado que muestra las alertas en formato full junto con el contenido del paquete. Este modo es solo para proposito de pruebas. |
+| Syslog | Envia las alertas al servidor Syslog en formato fast. |
