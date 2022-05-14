@@ -31,3 +31,12 @@ Es un sistema de prevencion de intrusiones de codigo abierto, basado en red, cap
 - log
 
 ![Untitled](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/c4de5c9097351e9ba8a80ce30c3243fc3309ab09/img/3.PNG)
+
+# inspectores (preprocesadores) en Snort
+
+- esquema general
+- tipos de inspectores
+- Esquema de inspeccion de trafico en Snort 3
+
+# Esquema general de los inspectores
+![Untitled](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/e83e931958ccb8185e816170bda9712aa7384b99/img/4.PNG)
