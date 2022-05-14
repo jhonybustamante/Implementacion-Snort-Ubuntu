@@ -81,3 +81,10 @@ la forma en la que snort aplicara las reglas es la siguiente:
 - reglas de descarte
 - reglas de alertas
 - reglas de logs
+
+# Reordenamiento de alertas
+| Opcion | Descripcion |
+| --- | --- |
+| —alert-before-pass | Fuerza a que las reglas de alertas se ejecuten antes de las reglas permisivas |
+| —treat-drop-as-alert | Hace que las reglas de decarte o rechazo se ejecuten como alertas en vez de la accion predefinida. |
+| —process-all-event | Hace que se procese cada evento asociado con un paquete, en base al orden de las reglas. |
