@@ -21,6 +21,16 @@ existen diferentes fuentes para encontrar e implementar reglas:
 # Analisis de reglas
 ![analisis](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/ea733338b12c04b1b5b69b0c7882fed67b6e7d61/creacion%20de%20reglas%20para%20snort/Img-rules/4.PNG)
 
+## Las diferentes opciones que nos podemos encotrar en la cabecera son las siguientes:
+# Acción
+
+- Alert: se envia una alerta y guarda la informacion en el archivo de log
+- log: la regla se dispara pero solamente se guarda en el archivo de log
+- pass: ignora el paquete
+- drop: si la regla se dispara se bloquea el paquete y se guarda la informacion en el log
+- reject: se bloquea el paquete y se fuerza el fallo de la comunicacion
+- sdrop: se bloquea el paquete pero no se deja constacia del log
+
 ## Ejemplo 1:
 ```
 alert tcp $HOME_NET -> any any (msg: "Error autentificacion FTP"; contet:"login or password incorrect"; sid:1000003; rev:1;)
