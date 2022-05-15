@@ -70,3 +70,4 @@ alert icmp 192.168.0.1/24 any -> any any (msg:"alguien esta haciendo ping";sid:1
 
 ## Snort implementando la regla que creamos
 ![snort](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/1e6ee29202666b1d30efcdd0051cf51d401163c9/instalacion%20de%20snort%20en%20ubuntu/snort-img/haciendo%20ping%20a%20la%20maquina.PNG)
+
