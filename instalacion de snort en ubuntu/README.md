@@ -71,7 +71,7 @@ cd /etc/snort/
 ```
 snort -A console -c snort.conf -i (colocar el nombre de su interfaz de red)
 ```
-![snort]()
+![snort](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/8d63b4fb62a50313d0b22751c7dc757fb799a291/instalacion%20de%20snort%20en%20ubuntu/snort-img/snort.PNG)
 
 
 
