@@ -50,6 +50,8 @@ minimo de ocurrencia 1
 ```
 /etc/init.d/snort restart
 ```
+![status](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/3351a7e51aa682273b0f217f81e40484ba5a53b9/instalacion%20de%20snort%20en%20ubuntu/snort-img/7.1.PNG)
+
 ## el siguiente paso es verificar el servicio de snort con la siguiente linea de comando
 ```
 service snort status
