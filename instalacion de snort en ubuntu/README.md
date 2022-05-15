@@ -50,3 +50,27 @@ minimo de ocurrencia 1
 ```
 /etc/init.d/snort restart
 ```
+## el siguiente paso es verificar el servicio de snort con la siguiente linea de comando
+```
+service snort status
+```
+## Acceder con el siguiente comando al archivo de configuracion del snort
+```
+gedit /etc/snort/snort.conf
+```
+![alt tecxt](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/43b6f75157c3c3ea69c1fe477d252c7d0a85d96f/instalacion%20de%20snort%20en%20ubuntu/snort-img/13.PNG)
+
+# en el apartado de HOME_NET se coloca la puerta de enlace de la maquina y debajo se coloca el ip de la maquina windows 
+![alt tecxt](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/43b6f75157c3c3ea69c1fe477d252c7d0a85d96f/instalacion%20de%20snort%20en%20ubuntu/snort-img/14.PNG)
+
+# despues de agregar las reglas que desee se accede a la carpeta de snort con el siguiente comando 
+```
+cd /etc/snort/
+```
+# Por ultimo se ejecuta el monitoreo en consola
+```
+snort -A console -c snort.conf -i (colocar el nombre de su interfaz de red)
+```
+
+
+
