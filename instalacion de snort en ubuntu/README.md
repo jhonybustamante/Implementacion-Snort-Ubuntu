@@ -1,4 +1,4 @@
-Instalacion de Snort en Ubuntu
+Instalacion e implementacion de Snort en Ubuntu
 =================================
 
 **Objetivos**
@@ -71,6 +71,7 @@ cd /etc/snort/
 ```
 snort -A console -c snort.conf -i (colocar el nombre de su interfaz de red)
 ```
+![snort]()
 
 
 
