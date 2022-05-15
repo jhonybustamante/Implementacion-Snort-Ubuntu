@@ -31,13 +31,42 @@ existen diferentes fuentes para encontrar e implementar reglas:
 - reject: se bloquea el paquete y se fuerza el fallo de la comunicacion
 - sdrop: se bloquea el paquete pero no se deja constacia del log
 
+# Origen y destino
+- se pueden usar tanto como origen como destino una red o una ip, además de poder usar las variables definidas en el archivo de reconfiguracion.
+- any: significa que es valido cualquier IP o red
+
+# Dirección
+- ->: la regla solo actúa en una dirección Origen hacia Destino.
+- <>: La regla actúa en ambas direcciones.
+
 ## Ejemplo 1:
 ```
-alert tcp $HOME_NET -> any any (msg: "Error autentificacion FTP"; contet:"login or password incorrect"; sid:1000003; rev:1;)
+alert tcp $HOME_NET 21 -> any any (msg: "Error autentificacion FTP"; contet:"login or password incorrect"; sid:1000003; rev:1;)
 ```
+- Accion: alert
+- protocolo: TCP
+- Origen: $HOME_NET
+- puerto de Origen: 21
+- Destino: Cualquiera
+- Puerto Destino:cualquiera
+- Direccion: solamente hacia destino
 ## Ejemplo 2:
 ```
-alert tcp $HOME_NET 21 -> any any (msg: "Error autenticacion FTP"; content: "login or password incorret"; sid:1000003; rev:1;) 
+alert tcp $EXTERNAL_NET any -> $HOME_NET 3306 (msg: "MYSQL show databases attempt"; flow:to_server,established; content:"|0F 00 00 00 03| show databases") 
 ```
+- Acción: Alert 
+- Protocolo: TCP
+- Origen: $EXTERNAL_NET
+- Puerto: Cualquiera
+- Direccion: solamente hacia el destino
+- Destino: cualquiera
+- Puerto Destino: 3306 
 
+### Ejemplo de la implementacion de reglas de snort en ubuntu
+```
+alert icmp 192.168.0.1/24 any -> any any (msg:"alguien esta haciendo ping";sid:19910316;rev:1;)
+```
+![ejemplo](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/1e6ee29202666b1d30efcdd0051cf51d401163c9/creacion%20de%20reglas%20para%20snort/Img-rules/12.PNG)
 
+## Snort implementando la regla que creamos
+![snort](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/1e6ee29202666b1d30efcdd0051cf51d401163c9/instalacion%20de%20snort%20en%20ubuntu/snort-img/haciendo%20ping%20a%20la%20maquina.PNG)
