@@ -18,24 +18,6 @@ existen diferentes fuentes para encontrar e implementar reglas:
 # opciones de deteccion
 ![deteccion](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/6d62dfb7b6c9ffbe46b200fea020154dfdcadd28/creacion%20de%20reglas%20para%20snort/Img-rules/2.PNG)
 
-## Variables de red en snort
-
-HOME_NET: Define el rango de la red interna
-
-EXTERNAL_NET: Define el rango fuera de la red interna
-
-- para definir este rango se suele usar !HOME_NET que significa “cualquier red diferente a la definida en HOME_NET”.
-
-SERVERS: se define donde estan los de servidores diferentes servicios, por defecto tiene el mismo valor que HOME_NET
-
-- esta configuracion es importante ya que impacta en algunas reglas que estan diseñadas para servicios especificos, y, para no crear falsos positivos, solo actuan sobre los servicios de los rangos definidos en la configuracion
-
-PORT: del mismo modo que los servicios definen la red del mismo, se definen puertos especificos para ellos.
-
-lista blanca: existe una lista donde indicar los disppositivos que estan excluidos de las reglas
-
-lista negra: en esta lista se definen hosts que crean una alerta si son detectado en la red.
-
 # Analisis de reglas
 ![analisis](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/ea733338b12c04b1b5b69b0c7882fed67b6e7d61/creacion%20de%20reglas%20para%20snort/Img-rules/4.PNG)
 
