@@ -12,6 +12,12 @@ existen diferentes fuentes para encontrar e implementar reglas:
 - **[Reglas de la comunidad](https://www.snort.org/downloads/#rule-downloads)** : Estas reglas son creadas por la comunidad de SNORT. Hay muy pocas reglas y la última versión es de 2007 para Snort 2.4. La mayoría de las amenazas que detectan ya están implementadas en ET o VRT.
 - **Reglas caseras y otras** : Son las reglas, creadas y mantenidas localmente, según las necesidades específicas de la red. También pueden existir otras reglas. Para amenazas específicas y otras amenazas “únicas”, los motores de búsqueda pueden proporcionar reglas más específicas, pero es necesario saber qué buscar.
 
+# Formato de reglas en snort
+![formato](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/6d62dfb7b6c9ffbe46b200fea020154dfdcadd28/creacion%20de%20reglas%20para%20snort/Img-rules/1.PNG)
+
+# opciones de deteccion
+![deteccion](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/6d62dfb7b6c9ffbe46b200fea020154dfdcadd28/creacion%20de%20reglas%20para%20snort/Img-rules/2.PNG)
+
 ## Variables de red en snort
 
 HOME_NET: Define el rango de la red interna
