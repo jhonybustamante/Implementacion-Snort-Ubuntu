@@ -29,3 +29,5 @@ PORT: del mismo modo que los servicios definen la red del mismo, se definen puer
 lista blanca: existe una lista donde indicar los disppositivos que estan excluidos de las reglas
 
 lista negra: en esta lista se definen hosts que crean una alerta si son detectado en la red.
+
+
