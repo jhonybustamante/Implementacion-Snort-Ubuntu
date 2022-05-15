@@ -40,4 +40,12 @@ lista negra: en esta lista se definen hosts que crean una alerta si son detectad
 ![analisis](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/ea733338b12c04b1b5b69b0c7882fed67b6e7d61/creacion%20de%20reglas%20para%20snort/Img-rules/4.PNG)
 
 ## Ejemplo 1:
+```
 alert tcp $HOME_NET -> any any (msg: "Error autentificacion FTP"; contet:"login or password incorrect"; sid:1000003; rev:1;)
+```
+## Ejemplo 2:
+```
+alert tcp $HOME_NET 21 -> any any (msg: "Error autenticacion FTP"; content: "login or password incorret"; sid:1000003; rev:1;) 
+```
+
+
