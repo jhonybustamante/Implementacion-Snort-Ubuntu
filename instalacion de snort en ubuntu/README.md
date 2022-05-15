@@ -76,5 +76,6 @@ snort -A console -c snort.conf -i (colocar el nombre de su interfaz de red)
 ```
 ![snort](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/8d63b4fb62a50313d0b22751c7dc757fb799a291/instalacion%20de%20snort%20en%20ubuntu/snort-img/snort.PNG)
 
-
+# hacemos ping a la maquina ubuntu desde la maquina windows y observamos  la activacion de la regla implementada
+![prueba](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/6c83a3301d93bcd33d148e6eb760aa4ddc7ca626/instalacion%20de%20snort%20en%20ubuntu/snort-img/haciendo%20ping%20a%20la%20maquina.PNG)
 
