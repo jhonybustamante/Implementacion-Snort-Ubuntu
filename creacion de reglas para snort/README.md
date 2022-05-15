@@ -36,4 +36,8 @@ lista blanca: existe una lista donde indicar los disppositivos que estan excluid
 
 lista negra: en esta lista se definen hosts que crean una alerta si son detectado en la red.
 
+# Analisis de reglas
+![analisis](https://github.com/jhonybustamante/Implementacion-Snort-Ubuntu/blob/ea733338b12c04b1b5b69b0c7882fed67b6e7d61/creacion%20de%20reglas%20para%20snort/Img-rules/4.PNG)
 
+## Ejemplo 1:
+alert tcp $HOME_NET -> any any (msg: "Error autentificacion FTP"; contet:"login or password incorrect"; sid:1000003; rev:1;)
